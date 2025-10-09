@@ -8,4 +8,4 @@ Each folder is a standalone mini-app exploring a specific React concept.
 |  Project     |      Description   |
 |--------------|--------------------|
 | **bg-changer** | Simple color background changer |
-| **Password Generatir** | Random Password Generator |
+| **Password Generator** | Random Password Generator |
