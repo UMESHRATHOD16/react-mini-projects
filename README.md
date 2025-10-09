@@ -7,5 +7,5 @@ Each folder is a standalone mini-app exploring a specific React concept.
 
 |  Project     |      Description   |
 |--------------|--------------------|
-| **bg-changer** | Simple color background changer using `useState`. |
-| **Password Generatir** | Random Password Generator `useState,useRef,useCallback,useEffect`. |
+| **bg-changer** | Simple color background changer |
+| **Password Generatir** | Random Password Generator |
