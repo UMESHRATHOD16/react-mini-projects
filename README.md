@@ -9,6 +9,7 @@ A collection of small React applications built to explore various concepts and f
 - [React Router Demo](./reactRouter): Demonstrates navigation between pages using React Router.
 - [basic counter](./counter/): Demonstrates how useEffect hook is used
 - [Joke Generator](./jokeGenerator/): Demo of how to create custom hooks, sepearte components and api fetching
+- [miniContext](./miniContext/): demo of *Context* in react
 
 ## Setup Instructions
 
