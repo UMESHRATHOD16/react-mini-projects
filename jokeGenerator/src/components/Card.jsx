@@ -8,7 +8,7 @@ function Card({joke,num,loading}) {
       : (typeof joke === 'object' ? JSON.stringify(joke) : joke)
 
   return (
-  <div className="text-white rounded-3xl h-48 w-[600px] flex items-center px-4 gap-4 bg-[#D66BA0]">
+  <div className="text-white rounded-3xl h-48 w-150 flex items-center px-4 gap-4 bg-[#D66BA0]">
     <div className="bg-[#9DF7E5] text-black h-40 w-24 rounded-xl flex justify-center items-center text-xl font-bold">
       {num}
     </div>
