@@ -14,6 +14,8 @@ function App() {
         <button onClick={() => setColor("green")} className="rounded-2xl bg-green-600 text-white px-4 py-2">Green</button>
         <button onClick={() => setColor("red")} className="rounded-2xl bg-red-500 text-white px-4 py-2">Red</button>
       </div>
+
+      
     </div>
   )
 }
