@@ -12,6 +12,7 @@ A collection of small React applications built to explore various concepts and f
 - [miniContext](./miniContext/): demo of *Context* in react
 - [Theme Changer](./themeChanger/): Demo of contextApi in toggling modes
 - [Todo App](./todoContextLocal/) : Demo of Local Storage and Context api 
+- [Todo App with reduxToolKit](./reduxToolKitTodo/) : Demo of reduxToolKit
 
 ## Setup Instructions
 
