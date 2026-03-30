@@ -23,6 +23,7 @@ function App() {
 
         <h1 className="text-3xl font-bold mb-6">
           Counter Value
+          
         </h1>
 
         <p className="text-5xl font-extrabold mb-8 text-blue-400">
