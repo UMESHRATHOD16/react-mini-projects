@@ -9,8 +9,7 @@ function App() {
 
   return (
     <>
-<div className="grid grid-cols-2 place-items-center h-screen w-full gap-6">
-
+  <div className="grid grid-cols-2 place-items-center h-screen w-full gap-6">
   <Card num={1} joke={joke} loading={loading}/>
   <Card num={2} joke={joke} loading={loading}/>
   <Card num={3} joke={joke} loading={loading}/>
@@ -22,11 +21,8 @@ function App() {
       Get Jokes
     </button>
   </div>
-
 </div>
-        
     </>
   )
 }
-
 export default App
