@@ -1,6 +1,4 @@
 import { useState , useCallback, useEffect , useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -38,9 +36,9 @@ function App() {
   return (
     <>
       <div className="h-screen w-full bg-[#1D1A31] flex justify-center items-center">
-  <div className="w-[600px] bg-gray-200 p-5 rounded-lg flex justify-center items-center flex-wrap">
-       <p className="text-3xl font-extrabold text-[#41337A] tracking-wide mb-2 font-mono"> Password Generator </p>
-    <div className="w-full bg-[#9395D3] p-2 rounded-lg flex justify-between items-center">
+      <div className="w-[600px] bg-gray-200 p-5 rounded-lg flex justify-center items-center flex-wrap">
+      <p className="text-3xl font-extrabold text-[#41337A] tracking-wide mb-2 font-mono"> Password Generator </p>
+      <div className="w-full bg-[#9395D3] p-2 rounded-lg flex justify-between items-center">
       <input 
         type="text"
         value={Password}
@@ -71,7 +69,6 @@ function App() {
           }}
         /> <label htmlFor="charInput">Characters</label></div>
          
-        
          <div className="flex justify-center items-center gap-x-1 text-[#41337A]" id='numberInput'> <input id='numberInput'  type="checkbox" className="cursor-pointer" 
          defaultChecked = {numAllowed} 
         onChange={() => {
@@ -79,13 +76,9 @@ function App() {
           }}
         /> <label htmlFor="numberInput">Numbers</label></div>
         
-        
     </div>
-   
   </div>
 </div>
-
-
     </>
   )
 }
